@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DynamoDB Example</title> 
+</head>
+
+<body>
+<h1>Please submit the below form</h1>
+<hr>
+<h4>Creating a new Table</h4>
+<form action="/create-table" method="post">
+    <input type="text" name="tableName" placeholder="Table Name">
+    <input type="submit" value="Submit">
+</form> <br />
+<hr>
+<h4>Student Registration Form</h4>
+<form action="/put-via-form" method="post">
+    Reg. No: <input type="text" name="regNo" placeholder="Registration number">
+    <br /><br />
+    Name :&nbsp;&nbsp;&nbsp; <input type="text" name="stud_name" placeholder="Name">
+    <br /><br />
+    Age : &nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="age" placeholder="Age">
+    <br /><br />
+    <input type="submit" value="Submit" style="width:250px">
+</form>
+<br />
+<hr>
+<h4>Record updation form</h4>
+<form action="/update-table" method="POST">
+    Reg. No: <input type="text" name="regNo" placeholder="Registration number">
+     <br /><br />
+    Age : &nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="age" placeholder="Age">
+     <br /><br />
+     <input type="submit" value="Submit" style="width:250px">
+</form>
+</body>
+</html>
